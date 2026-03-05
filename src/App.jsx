@@ -17,7 +17,7 @@ export default function App() {
       case "home":
         return (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <h1 className="text-2xl font-bold mb-2">Welcome to Genius</h1>
+            <h1 className="text-2xl font-bold mb-2">Welcome to Genius!!</h1>
             <p className="text-gray-500 mb-4">
               Your daily boost of intelligence.
             </p>
