@@ -84,7 +84,7 @@ export default function App() {
     <div className="flex flex-col min-h-screen bg-gray-100">
      <div className="flex-1 p-6 pb-20">
   <motion.div
-    key={activeTab} // 👈 This makes it animate every time the tab changes
+    key={activeTab} 
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.4 }}
